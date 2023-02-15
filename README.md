@@ -34,15 +34,17 @@ Users should be able to:
 <img src="src/design/active-states.jpg" alt="Active States Design">
 
 - Mobile
-<img src="src/design/mobile-design.jpg" alt="Mobile Design">
+
+  <img src="src/design/mobile-design.jpg" alt="Mobile Design" width="200px" height="400">
 
 ### Screenshot my solutions
 
 - Desktop
 <img src="src/design/desktop.gif" alt="Desktop">
 
-- mobile
-<img src="src/design/mobile.gif" alt="Desktop">
+- Mobile
+
+  <img src="src/design/mobile.gif" alt="Desktop" width="200px" height="400">
 
 
 ### Links
