@@ -1,0 +1,151 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: url(../images/bg-desktop.svg) center no-repeat var(--primary-medium-color);
+    background-size: cover;
+}
+
+.header {
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+.header .logo img {
+    width: 175px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    align-items: center;
+    margin: 45px 50px 0 50px;
+}
+
+.hero .illustration-img img {
+    padding-top: 20px;
+}
+
+.hero .info {
+    align-self: flex-start;
+    padding-left: 40px;
+}
+
+.hero .info h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: #FFF;
+    padding-top: 50px;
+}
+
+.hero .info p {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.hero .info .btn-register {
+    margin-top: 20px;
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    color: var(--primary-medium-color);
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero .info .btn-register:hover {
+    color: #FFF;
+    background-color: var(--primary-soft-color);
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 75px;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    border: solid 1px #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.footer a i {
+    font-size: 1.5rem;
+    padding: 6px;
+}
+
+.footer a:hover {
+    color: var(--primary-soft-color);
+    border-color: var(--primary-soft-color);
+}
+
+@media (max-width: 425px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat var(--primary-medium-color);
+    }
+
+    .header .logo img {
+        width: 140px;
+    }
+
+    .header {
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        grid-template-rows: 280px 260px;
+        margin-top: 0;
+    }
+
+    .hero .info {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       align-items: center;
+       padding: 0;
+    }
+
+    .hero .info h2 {
+        font-size: 2rem;
+        padding-top: 15px;
+    }
+
+    .hero .info p {
+        padding-top: 15px;
+        font-size: 1.3rem;
+    }
+
+    .hero .info .btn-register {
+        width: 200px;
+        height: 35px;
+        font-size: 1.3rem;
+    }
+
+    .footer {
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .footer a {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer a i {
+        font-size: 1.4rem;
+    }
+
+}
