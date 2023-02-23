@@ -8,5 +8,6 @@
 html {
     max-width: 1440px;
     font-size: 62.5%;
-    max-height: 100vh;
+    height: 100vh;
+    margin: auto auto;
 }
