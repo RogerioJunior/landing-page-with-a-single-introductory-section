@@ -3,12 +3,10 @@
 :root {
     --primary-medium-color: hsl(257, 40%, 49%);
     --primary-soft-color: hsl(300, 69%, 71%);
-    --desktop: 1440px
-    --mobile: 425px
 }
 
 html {
-    max-width: var(--desktop);
+    max-width: 1440px;
     font-size: 62.5%;
-    height: 100vh;
+    max-height: 100vh;
 }

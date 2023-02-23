@@ -1,0 +1,59 @@
+@media (max-width: 425px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat var(--primary-medium-color);
+    }
+
+    .header .logo img {
+        width: 140px;
+    }
+
+    .header {
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        grid-template-rows: 280px 260px;
+        margin-top: 0;
+    }
+
+    .hero .info {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       align-items: center;
+       padding: 0;
+    }
+
+    .hero .info h2 {
+        font-size: 2rem;
+        padding-top: 15px;
+    }
+
+    .hero .info p {
+        padding-top: 15px;
+        font-size: 1.3rem;
+    }
+
+    .hero .info .btn-register {
+        width: 200px;
+        height: 35px;
+        font-size: 1.3rem;
+    }
+
+    .icons {
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .icons a {
+        width: 25px;
+        height: 25px;
+    }
+
+    .icons a i {
+        font-size: 1.4rem;
+    }
+
+}

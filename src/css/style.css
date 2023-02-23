@@ -21,7 +21,7 @@ body {
     margin: 45px 50px 0 50px;
 }
 
-.hero .illustration-img img {
+.hero img {
     padding-top: 20px;
 }
 
@@ -61,13 +61,13 @@ body {
     background-color: var(--primary-soft-color);
 }
 
-.footer {
+.icons {
     display: flex;
     justify-content: flex-end;
     margin: 10px 75px;
 }
 
-.footer a {
+.icons .icon a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,72 +80,12 @@ body {
     transition: 0.3s;
 }
 
-.footer a i {
+.icons .icon i {
     font-size: 1.5rem;
     padding: 6px;
 }
 
-.footer a:hover {
+.icons a:hover {
     color: var(--primary-soft-color);
     border-color: var(--primary-soft-color);
-}
-
-@media (max-width: 425px) {
-    body {
-        background: url(../images/bg-mobile.svg) no-repeat var(--primary-medium-color);
-    }
-
-    .header .logo img {
-        width: 140px;
-    }
-
-    .header {
-        margin-top: 30px;
-        margin-left: 35px;
-    }
-
-    .hero {
-        grid-template-columns: 1fr;
-        grid-template-rows: 280px 260px;
-        margin-top: 0;
-    }
-
-    .hero .info {
-       display: flex;
-       flex-direction: column;
-       text-align: center;
-       align-items: center;
-       padding: 0;
-    }
-
-    .hero .info h2 {
-        font-size: 2rem;
-        padding-top: 15px;
-    }
-
-    .hero .info p {
-        padding-top: 15px;
-        font-size: 1.3rem;
-    }
-
-    .hero .info .btn-register {
-        width: 200px;
-        height: 35px;
-        font-size: 1.3rem;
-    }
-
-    .footer {
-        justify-content: center;
-        margin: 0px;
-    }
-
-    .footer a {
-        width: 25px;
-        height: 25px;
-    }
-
-    .footer a i {
-        font-size: 1.4rem;
-    }
-
 }
